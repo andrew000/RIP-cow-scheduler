@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='cow-scheduler',
-    version='0.0.2',
+    version='0.0.3',
     packages=['scheduler'],
     url='https://github.com/andrew000/cow-scheduler',
     license='GNU General Public License v3.0',
