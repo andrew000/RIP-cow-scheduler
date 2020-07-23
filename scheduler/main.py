@@ -32,7 +32,7 @@ class Scheduler:
             pass
 
         else:
-            return AttributeError
+            raise AttributeError
 
         self.tasks.update({str(uuid4()): {'time': time,
                                           'thread': Thread(target=func, args=(*args,), kwargs={**kwargs})}})
